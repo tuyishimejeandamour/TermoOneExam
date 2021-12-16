@@ -42,7 +42,7 @@ public class CityService {
 		return city1 ;
 	}
 
-	private double calculateFahrenheit(double weather){
+	public double calculateFahrenheit(double weather){
 		return (9/5 * weather) + 32;
 	}
 	
